@@ -19,8 +19,8 @@ class UserWithAddress(BaseModel):
 # Valid data with nested structure
 user_data = {
     "id": 2,
-    "name": "Haya",
-    "email": "haya@example.com",
+    "name": "Ali",
+    "email": "ali@example.com",
     "addresses": [
         {"street": "123 abs", "city": "Karachi", "zip_code": "100012"},
         {"street": "678 ghk", "city": "Quetta", "zip_code": "90008"},
